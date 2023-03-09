@@ -1,0 +1,65 @@
+body {
+    
+    /* to proviode vackgroud image */
+    background-image: url('./20200720223534_IMG_0888.JPG');
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+   
+}
+
+.menu {
+    background-color: blueviolet;
+    width: 100%;
+    position: fixed;
+    margin-top: 0pc;
+}
+
+.links {
+    display: inline;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;
+    /* text decoration x y z diresction */
+}
+
+/* psuedoclass-when mouse point touch to hihglight the content-selector : pseudoclass {propertty : value; */
+a:hover {
+    font-size: 40px;
+}
+
+/* to provide scrolling property it in the html croll behaviour */
+html {
+    scroll-behavior: smooth;
+}
+
+.profile {
+    margin-top: 100px;
+    width: 400px;
+}
+
+#name {
+    font-family: 'Pacifico', cursive;
+}
+/* colour grading */
+
+
+#welcome{
+    background: linear-gradient(to right,aqua,red);
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_1 h3{
+    display: inline;
+}
